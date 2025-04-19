@@ -262,7 +262,7 @@ body {
   border: 1px solid var(--main-color);
   color: var(--main-color);
   font-size: 24px;
-  transform: translateX(270%) rotateY(0deg);
+  transform: translateX(500%) rotateY(0deg);
   transition: var(--transition);
 }
 
