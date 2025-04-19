@@ -16,13 +16,14 @@
   <body>
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"
-          ><img
-            src="./img/WhatsApp Image 2025-04-18 at 13.31.02_7062eaa7.jpg"
-            alt=""
-          />
-
-          <span>Tour Guide</span>
+        <a class="navbar-brand d-flex align-items-center gap-3" href="#">
+          <div class="logo">
+            <img
+              src="./img/WhatsApp Image 2025-04-18 at 13.31.02_7062eaa7.jpg"
+              alt=""
+            />
+          </div>
+          <span>LavandaEgypt Tour</span>
         </a>
         <button
           class="navbar-toggler"
@@ -66,8 +67,8 @@
             Egypt with Tour Guide.
           </p>
           <div class="btns">
-            <button class="btn rounded-5 text-uppercase">Our Gallery</button>
-            <button class="btn rounded-5 text-uppercase">Contact Us!</button>
+            <button class="btn text-uppercase">Our Gallery</button>
+            <button class="btn text-uppercase">Contact Us!</button>
           </div>
           <!-- social -->
           <div class="social">
@@ -137,8 +138,10 @@
       </section>
       <!-- ============================= -->
       <section class="about margin-y-100 text-center">
-        <button class="sec-btn" role="button">About</button>
-        <div class="container">
+        <div class="sec-title sec-about">
+          <h2>Our History</h2>
+        </div>
+        <div class="container margin-y-50">
           <div class="row d-flex align-items-center">
             <div class="col-md-6">
               <img class="w-100" src="./img/about.png" alt="" />
@@ -167,8 +170,10 @@
       </section>
       <!-- ==================================== -->
       <section class="trips margin-y-100 text-center">
-        <button class="sec-btn" role="button">Trips</button>
-        <div class="container">
+        <div class="sec-title sec-trips">
+          <h2>Our Trips</h2>
+        </div>
+        <div class="container margin-y-50">
           <div class="row g-4">
             <div class="inner col-lg-4 col-md-6">
               <div class="card mx-auto" style="width: 18rem">
@@ -284,215 +289,89 @@
       <!-- =========================================  -->
       <section class="videos text-center margin-y-100">
         <!-- HTML !-->
-        <button class="sec-btn" role="button">Videos</button>
+        <div class="sec-title sec-video">
+          <h2>Our Videos</h2>
+        </div>
 
-        <div class="container">
+        <div class="container margin-y-50">
           <div class="row g-4">
             <div class="inner col-lg-4 col-md-6">
               <div
-                class="card mx-auto"
+                class="card mx-auto rounded-0"
                 data-bs-toggle="modal"
                 data-bs-target="#videoModal"
               >
-                <video
-                  width="100%"
-                  height="auto"
-                  controls
-                  preload="metadata"
-                  poster="./img/videos/pexels-israyosoy-31646849.jpg"
-                >
-                  <source
-                    src="./img/videos/3591016-hd_1920_1080_30fps.mp4"
-                    type="video/mp4"
-                  />
-                </video>
-              </div>
-              <div
-                class="modal fade"
-                id="videoModal"
-                tabindex="-1"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog modal-dialog-centered modal-lg">
-                  <div class="modal-content bg-dark">
-                    <div class="modal-header border-0">
-                      <h5 class="modal-title text-white">
-                        <span class="custom-guide">Tour Gide</span> video
-                      </h5>
-                      <button
-                        type="button"
-                        class="btn-close btn-close-white"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body p-0">
-                      <video width="100%" height="auto" controls>
-                        <source
-                          src="./img/videos/3591016-hd_1920_1080_30fps.mp4"
-                          type="video/mp4"
-                        />
-                      </video>
-                      <p class="text-light p-5">
-                        Egyptian tourism is one of the most famous and diverse
-                        in the world. With its rich history, breathtaking
-                        monuments, and stunning natural landscapes, Egypt
-                        attracts millions of visitors every year. The Pyramids
-                        of Giza, the Sphinx, and the temples of Luxor and Aswan
-                        showcase the country’s ancient civilization. The Red Sea
-                        resorts, like Sharm El-Sheikh and Hurghada, offer
-                        crystal-clear waters and exciting diving experiences.
-                        The Nile River provides a unique cruise experience,
-                        while Cairo’s bustling streets reflect the blend of
-                        modern and traditional cultures. Egyptian hospitality,
-                        delicious cuisine, and warm weather make it a perfect
-                        tourist destination year-round.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                <h3>Discover</h3>
               </div>
             </div>
             <div class="inner col-lg-4 col-md-6">
               <div
-                class="card mx-auto"
+                class="card mx-auto rounded-0"
                 data-bs-toggle="modal"
-                data-bs-target="#videoModal"
+                data-bs-target="#videoModal2"
               >
-                <video
-                  width="100%"
-                  height="auto"
-                  controls
-                  preload="metadata"
-                  poster="./img/videos/pexels-israyosoy-31646849.jpg"
-                >
-                  <source
-                    src="./img/videos/3591016-hd_1920_1080_30fps.mp4"
-                    type="video/mp4"
-                  />
-                </video>
-              </div>
-              <div
-                class="modal fade"
-                id="videoModal"
-                tabindex="-1"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog modal-dialog-centered modal-lg">
-                  <div class="modal-content bg-dark">
-                    <div class="modal-header border-0">
-                      <h5 class="modal-title text-white">
-                        <span class="custom-guide">Tour Gide</span> video
-                      </h5>
-                      <button
-                        type="button"
-                        class="btn-close btn-close-white"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body p-0">
-                      <video width="100%" height="auto" controls>
-                        <source
-                          src="./img/videos/3591016-hd_1920_1080_30fps.mp4"
-                          type="video/mp4"
-                        />
-                      </video>
-                      <p class="text-light p-5">
-                        Egyptian tourism is one of the most famous and diverse
-                        in the world. With its rich history, breathtaking
-                        monuments, and stunning natural landscapes, Egypt
-                        attracts millions of visitors every year. The Pyramids
-                        of Giza, the Sphinx, and the temples of Luxor and Aswan
-                        showcase the country’s ancient civilization. The Red Sea
-                        resorts, like Sharm El-Sheikh and Hurghada, offer
-                        crystal-clear waters and exciting diving experiences.
-                        The Nile River provides a unique cruise experience,
-                        while Cairo’s bustling streets reflect the blend of
-                        modern and traditional cultures. Egyptian hospitality,
-                        delicious cuisine, and warm weather make it a perfect
-                        tourist destination year-round.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                <h3>Discover</h3>
               </div>
             </div>
             <div class="inner col-lg-4 col-md-6">
               <div
-                class="card mx-auto"
+                class="card mx-auto rounded-0"
                 data-bs-toggle="modal"
                 data-bs-target="#videoModal"
               >
-                <video
-                  width="100%"
-                  height="auto"
-                  controls
-                  preload="metadata"
-                  poster="./img/videos/pexels-israyosoy-31646849.jpg"
-                >
-                  <source
-                    src="./img/videos/3591016-hd_1920_1080_30fps.mp4"
-                    type="video/mp4"
-                  />
-                </video>
-              </div>
-              <div
-                class="modal fade"
-                id="videoModal"
-                tabindex="-1"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog modal-dialog-centered modal-lg">
-                  <div class="modal-content bg-dark">
-                    <div class="modal-header border-0">
-                      <h5 class="modal-title text-white">
-                        <span class="custom-guide">Tour Gide</span> video
-                      </h5>
-                      <button
-                        type="button"
-                        class="btn-close btn-close-white"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body p-0">
-                      <video width="100%" height="auto" controls>
-                        <source
-                          src="./img/videos/3591016-hd_1920_1080_30fps.mp4"
-                          type="video/mp4"
-                        />
-                      </video>
-                      <p class="text-light p-5">
-                        Egyptian tourism is one of the most famous and diverse
-                        in the world. With its rich history, breathtaking
-                        monuments, and stunning natural landscapes, Egypt
-                        attracts millions of visitors every year. The Pyramids
-                        of Giza, the Sphinx, and the temples of Luxor and Aswan
-                        showcase the country’s ancient civilization. The Red Sea
-                        resorts, like Sharm El-Sheikh and Hurghada, offer
-                        crystal-clear waters and exciting diving experiences.
-                        The Nile River provides a unique cruise experience,
-                        while Cairo’s bustling streets reflect the blend of
-                        modern and traditional cultures. Egyptian hospitality,
-                        delicious cuisine, and warm weather make it a perfect
-                        tourist destination year-round.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                <h3>Discover</h3>
               </div>
             </div>
           </div>
         </div>
       </section>
       <hr />
+      <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content bg-dark">
+            <div class="modal-header border-0">
+              <h5 class="modal-title text-white">
+                <span class="custom-guide">Tour Gide</span> video
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body p-0">
+              <video width="100%" height="auto" controls>
+                <source
+                  src="./img/videos/3591016-hd_1920_1080_30fps.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <p class="text-light p-5">
+                Egyptian tourism is one of the most famous and diverse in the
+                world. With its rich history, breathtaking monuments, and
+                stunning natural landscapes, Egypt attracts millions of visitors
+                every year. The Pyramids of Giza, the Sphinx, and the temples of
+                Luxor and Aswan showcase the country’s ancient civilization. The
+                Red Sea resorts, like Sharm El-Sheikh and Hurghada, offer
+                crystal-clear waters and exciting diving experiences. The Nile
+                River provides a unique cruise experience, while Cairo’s
+                bustling streets reflect the blend of modern and traditional
+                cultures. Egyptian hospitality, delicious cuisine, and warm
+                weather make it a perfect tourist destination year-round.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- =================================== -->
       <section class="footer text-center p-5">
-        <img
-          src="./img/WhatsApp Image 2025-04-18 at 13.31.02_7062eaa7.jpg"
-          alt=""
-        />
+        <span class="logo">
+          <img
+            src="./img/WhatsApp Image 2025-04-18 at 13.31.02_7062eaa7.jpg"
+            alt=""
+          />
+        </span>
         <p class="my-4">
           © <span class="custom-color">Tour Guide</span> All Rights Reserved
         </p>
@@ -562,11 +441,11 @@
       </section>
     </main>
 
+    <script src="./js/script.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/script.js"></script>
   </body>
 </html>
