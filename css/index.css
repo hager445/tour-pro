@@ -66,14 +66,7 @@ body {
 .navbar {
   background-color: transparent;
 }
-.navbar .navbar-toggler {
-  color: var(--main-color) !important;
-  background-color: transparent;
-  border: 1px solid white !important;
-}
-.navbar .navbar-collapse {
-  background-color: var(--second-color);
-}
+
 .navbar .navbar-collapse ul {
   width: fit-content;
 }
@@ -323,5 +316,18 @@ body {
   }
   .sec-title:before {
     font-size: 40px;
+  }
+}
+@media screen and (min-width: 319px) and (max-width: 991px) {
+  .navbar .navbar-toggler {
+    color: var(--main-color) !important;
+    background-color: transparent;
+    border: 1px solid white !important;
+  }
+  .navbar .navbar-collapse {
+    background-color: var(--second-color);
+  }
+  .navbar .navbar-collapse .navbar-nav {
+    margin: 0 auto !important;
   }
 }
