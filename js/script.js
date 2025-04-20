@@ -8,3 +8,8 @@ window.addEventListener("scroll", function () {
     nav.classList.remove("nav-bg");
   }
 });
+// ===========================
+// redirect to details page
+function redirectTo(pageLocation, id) {
+  window.location.href = `${pageLocation}?id=${id}`;
+}

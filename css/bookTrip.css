@@ -1,0 +1,24 @@
+form {
+  width: 70%;
+  background-color: #48474cc7;
+  padding: 50px 70px;
+}
+form .form-label {
+  background-color: var(--main-color);
+  padding: 5px 15px;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+form .form-control {
+  border-radius: 0;
+}
+form .form-control:focus {
+  box-shadow: none;
+  border-color: var(--main-color);
+}
+@media (max-width: 992px) {
+  form {
+    padding: 30px 20px;
+    width: 90%;
+  }
+}

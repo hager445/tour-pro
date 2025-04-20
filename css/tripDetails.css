@@ -1,0 +1,61 @@
+:root {
+  --bg-color: #fffbea;
+  --main-color: #e1bb87;
+  --second-color: #48474c;
+  --transition: all 0.3s ease;
+}
+.navbar-nav {
+  --bs-navbar-color: #000;
+}
+main {
+  margin-top: 70px;
+  margin-bottom: 50px;
+
+  min-height: calc(100vh - 120px); /* ارتفاع الشاشة ناقص الهيدر والفوتر */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.details-sec .card {
+  background-color: transparent;
+}
+.details-sec .card-body {
+  background-color: var(--second-color);
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  color: #fff;
+  width: 70%;
+}
+.details-sec .card-body .card-title {
+  color: var(--main-color);
+  font-size: 33px;
+}
+.card .image {
+  margin: auto;
+  width: 50%;
+  height: 300px;
+}
+
+/* ============================ */
+/* For screens smaller than md (medium) */
+@media (max-width: 992px) {
+  .navbar-nav {
+    --bs-navbar-color: #fff;
+  }
+  .card .image {
+    width: 70%;
+  }
+  .btns .btn {
+    font-size: 13px;
+    text-wrap: nowrap;
+  }
+}
+
+@media (max-width: 667px) {
+  .card .image {
+    width: 95%;
+  }
+}
