@@ -176,7 +176,7 @@ body {
   align-items: center;
   padding: 5px;
   background-color: var(--second-color);
-  /* border-radius: 50%; */
+  border-radius: 50%;
   border: 1px solid transparent;
   cursor: pointer;
   transition: var(--transition);
@@ -196,7 +196,6 @@ body {
 .social ul li:hover {
   background-color: transparent;
   border: var(--second-color) solid 1px;
-  /* color: var(--second-color); */
 }
 .social ul li:hover a {
   /* color: var; */
@@ -309,7 +308,6 @@ body {
   }
   .hero h1 {
     margin: 30px 0;
-    /* margin-top: 100px; */
   }
   .hero p {
     width: 70%;

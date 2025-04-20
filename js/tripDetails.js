@@ -48,7 +48,7 @@ function getTripId() {
   console.log(tripId);
 
   const card = document.querySelector(".card");
-  card.querySelector("img").src = trips[tripId].image;
+
   card.querySelector(".card-title").innerHTML = trips[tripId].title;
   card.querySelector(".card-text").innerHTML = trips[tripId].description;
 }

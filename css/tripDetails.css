@@ -8,21 +8,22 @@
   --bs-navbar-color: #000;
 }
 main {
-  margin-top: 70px;
-  margin-bottom: 50px;
-
-  min-height: calc(100vh - 120px); /* ارتفاع الشاشة ناقص الهيدر والفوتر */
-
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+    url(../assets/img/cards/pexels-hossamashoor-29610806.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100vw;
+  height: 100vh;
+  background-size: cover;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 .details-sec .card {
   background-color: transparent;
+  border: none;
 }
 .details-sec .card-body {
-  background-color: var(--second-color);
   text-align: center;
   margin: auto;
   margin-top: 30px;
@@ -33,6 +34,7 @@ main {
   color: var(--main-color);
   font-size: 33px;
 }
+
 .card .image {
   margin: auto;
   width: 50%;
@@ -45,7 +47,7 @@ main {
   .navbar-nav {
     --bs-navbar-color: #fff;
   }
-  .card .image {
+  .card .card-body {
     width: 70%;
   }
   .btns .btn {
@@ -55,7 +57,7 @@ main {
 }
 
 @media (max-width: 667px) {
-  .card .image {
+  .card .card-body {
     width: 95%;
   }
 }
